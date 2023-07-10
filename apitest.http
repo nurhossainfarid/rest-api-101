@@ -1,0 +1,48 @@
+Get http://localhost:4000/health
+
+### 
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+    "name": "Ritu",
+    "country": "BD",
+    "rank": 2
+}
+
+### 
+GET http://localhost:4000
+
+###
+GET http://localhost:4000/6J2zsmwMG
+
+### 
+PATCH http://localhost:4000/2GozLZPRR
+Content-Type: application/json
+
+{
+    "name": "Nur Hossain Farid"
+}
+
+###
+PUT http://localhost:4000/2GozLZPRR
+Content-Type: application/json
+
+{
+  "name": "Nur Hossain",
+  "country": "BD",
+  "rank": 7
+}
+
+### 
+PUT http://localhost:4000/2GozLZPFR
+Content-Type: application/json
+
+{
+    "name": "Farid",
+    "country": "BD",
+    "rank": 1
+}
+
+###
+Delete http://localhost:4000/EDCSn2H_e
